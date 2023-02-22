@@ -14,7 +14,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ui-helper": [
+        "dist/ui-helper/ui-helper",
+        "dist/ui-helper"
+      ],
+      "ui-helper/services": [
+        "dist/ui-helper/ui-helper/services",
+        "dist/ui-helper/services"
+      ],
+      "service-helper": [
+        "dist/service-helper/service-helper",
+        "dist/service-helper"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
