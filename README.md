@@ -1,6 +1,10 @@
-# AngularTest
+# AngularTest for lazy loading withou router
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.10.
+
+## Scope
+
+Angular mono repo with one application with two libs. The ui-helper lib exposes two entry points, by that one entry point can be loaded from the app from the beginning and the other one can be loaded lazy.
 
 ## Development server
 
