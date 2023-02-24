@@ -1,7 +1,6 @@
 /*
- * Public API Surface of ui-helper
+ * Public API Surface of ui-helper/ui
  */
 
-export * from './lib/services/ui-helper.service';
 export * from './lib/ui-helper.component';
 export * from './lib/ui-helper.module';

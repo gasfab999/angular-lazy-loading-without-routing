@@ -17,6 +17,7 @@ export class AppComponent {
     private compiler: Compiler,
     private injector: Injector,
     private cdRef: ChangeDetectorRef,
+    // private uiHelperService: UiHelperService,
   ) {
     this.clicked$.pipe(first()).subscribe(() => {
       import('../../../../dist/ui-helper').then(({ UiHelperModule }) => {

@@ -16,12 +16,12 @@
       "dom"
     ],
     "paths": {
-      "ui-helper": [
-        "dist/ui-helper/ui-helper",
-        "dist/ui-helper"
+      "ui-helper/ui": [
+        "dist/ui-helper/ui/ui-helper-ui",
+        "dist/ui-helper/ui"
       ],
       "ui-helper/services": [
-        "dist/ui-helper/ui-helper/services",
+        "dist/ui-helper/services/ui-helper-services",
         "dist/ui-helper/services"
       ],
       "service-helper": [
